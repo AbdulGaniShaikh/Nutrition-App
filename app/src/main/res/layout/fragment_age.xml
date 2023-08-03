@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFrags.FragmentAge"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whats your Age?"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/age_sub"
+        android:layout_marginHorizontal="5dp"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <NumberPicker
+        android:id="@+id/age_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/NumberPickerText"
+        />
+
+</LinearLayout>

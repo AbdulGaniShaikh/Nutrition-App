@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFrags.FragmentWeight"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your current weight?"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/weight_sub"
+        android:layout_marginHorizontal="5dp"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center">-->
+<!--        <NumberPicker-->
+<!--            android:id="@+id/kg_frag"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:theme="@style/NumberPickerText"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=" . "-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--        <NumberPicker-->
+<!--            android:id="@+id/gm_frag"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:theme="@style/NumberPickerText"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+    <NumberPicker
+        android:id="@+id/kg_frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/NumberPickerText"
+        />
+
+</LinearLayout>

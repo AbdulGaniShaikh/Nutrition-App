@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nutrition App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_sub">We\'re happy that you\'ve taken the first step towards a healthier you.
+        We need a few details to kickstart your journey.</string>
+    <string name="age_sub">Your age determines how much you should consume(Select age in years).</string>
+    <string name="height_sub">Your height will help us calculate important body stats to help your reach your goals faster.</string>
+    <string name="gender_sub">A person\'s sex may also affect where the body stores fat.</string>
+    <string name="weight_sub">This will help us to determine your BMI and monitor your progress overtime</string>
+</resources>

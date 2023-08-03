@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    >
+
+    <TextView
+        android:id="@+id/recieved_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiii my name is abdul"
+        android:textSize="17sp"
+        android:backgroundTint="@color/secondaryLightColor"
+        android:textColor="@color/white"
+        android:paddingVertical="7dp"
+        android:maxWidth="270dp"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/shape_circle"/>
+    <TextView
+        android:id="@+id/sent_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiii"
+        android:textSize="17sp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        android:paddingVertical="7dp"
+        android:maxWidth="270dp"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/shape_circle"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/rtime_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6:67 pm"
+        android:textSize="13sp"
+        android:layout_toEndOf="@+id/recieved_message"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="7dp"/>
+    <TextView
+        android:id="@+id/stime_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6:67 pm"
+        android:textSize="13sp"
+        android:layout_toStartOf="@id/sent_message"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="7dp"/>
+
+</RelativeLayout>
